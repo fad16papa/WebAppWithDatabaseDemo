@@ -8,5 +8,13 @@
         public string Email { get; set; }
         public string Phone { get; set; }
         public string Address { get; set; }
+        public Employee()
+        {
+            Fullname = string.Empty;
+            Department = string.Empty;
+            Email = string.Empty;
+            Phone = string.Empty;
+            Address = string.Empty;
+        }
     }
 }
